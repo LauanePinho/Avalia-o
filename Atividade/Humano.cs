@@ -10,7 +10,7 @@ namespace Avaliação
     {
         private string Cpf;
 
-        public void Sorri ()
+        public void Sorri();
         {
 
         }

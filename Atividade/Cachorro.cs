@@ -8,7 +8,7 @@ namespace Avaliação
 {
     class Cachorro : Mamifero
     {
-       public void Enterraochinelo()
+       public void EnterraoChinelo()
         {
       
         }

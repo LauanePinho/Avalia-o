@@ -8,12 +8,12 @@ namespace Avaliação
 {
     class peixe : Animal
     {
-        public void Barbatanas()
+        public void Barbatanas();
         {
 
         }
 
-        public override void Locomove()
+    public override void Locomove();
         {
             base.Locomove();
             Console.WriteLine("Os peixes nadam");

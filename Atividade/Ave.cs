@@ -10,13 +10,13 @@ namespace Avaliação
     {
         public void Migra()
         {
-            Console.WriteLine("As aves migram quando necessario");
+            Console.WriteLine("As aves migram");
         }
 
         public override void Locomove()
         {
             base.Locomove();
-            Console.WriteLine("Ave voa");
+            Console.WriteLine("As ave voa");
         }
         public override void Comunica();
         {

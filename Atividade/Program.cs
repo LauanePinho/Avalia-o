@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +11,12 @@ namespace Avaliação
     {
         static void Main(string[] args)
         {
-            Humano LauaneHumano = new Humano(18, "Lauane", 3, 60, "8645437558");
-            LauaneHumano.Reproduz();
-            LauaneHumano.Sorri();
-            LauaneHumano.Comunica();
-            LauaneHumano.Amamenta();
-            LauaneHumano.Locomove();
+            Humano = new Humano(18, "Lauane", 3, 60, "8645437558");
+            Humano.Reproduz();
+            Humano.Sorri();
+            Humano.Comunica();
+            Humano.Amamenta();
+            Humano.Locomove();
             Cachorro Cocota = new Cachorro();
             Tubarão TubarãoGrande = new Tubarão();
             Pato Patinha = new Pato();
